@@ -17,14 +17,14 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <!--stylesheet-->
     <link rel="stylesheet" href="./index.css">
-    
+
 </head>
 
 <body>
     <!-- Navigation bar-->
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark  ">
-            <div class="container-fluid">
+           
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -37,29 +37,25 @@
                         <a class="nav-link active" href="#projects">Projects</a>
                         <a class="nav-link active" href="#contact">Contact</a>
                     </div>
-
                 </div>
-
-
-
-            </div>
+           
         </nav>
     </div>
 
     <!--
         profile 
     -->
-    <div class="container d-flex justify-content-center">
-        <img src="profile.png" class="profile " alt="My Profile Picture">
-    </div>
-
-    <div class="container" id="home">
-        <div class="container">
-
-            <h2 class="current_status">I'm a software Engineer 🚀</h2>
-            <p>And a developer who loves anime, lofi music and cofee ☕.</p>
-            <div class="board"></div>
+    <div class="container">
+        <div class="container d-flex justify-content-center profile-container">
+            <img src="profile.png" class="profile " alt="My Profile Picture">
         </div>
+    </div>
+   
+
+    <div class="container" id="home">     
+        <h2 class="current_status">I'm a software Engineer 🚀</h2>
+        <p>And a developer who loves anime, lofi music and cofee ☕.</p>
+        <div class="board"></div>
     </div>
 
     <div class="container">
@@ -78,9 +74,9 @@
         </div>
     </div>
 
-    <!--
-        project details
-    -->
+<!--
+    project details
+-->
     <div class="container" id="projects">
         <h1>Projects 💻</h1>
         <!--
@@ -88,7 +84,7 @@
             -->
         <div class="project-container">
             <h2>Governance DAO </h2>
-            <p class="project-link"><a href="hellopter">link to project</a></p>
+            <p class="project-link"><a href="https://github.com/sumit-mahajan/governance-dapp">Project Link</a></p>
             <p></p>
             <div class="row ">
                 <div class="col ">
@@ -107,123 +103,108 @@
             </div>
         </div>
 
-        <div class="container">
-            <h2> <a href="https://glacial-ocean-35214.herokuapp.com/" target="_blank"> Healthy Heart Prediction System
-                </a> </h2>
-            <div class="container justify-content-center ">
-                <div class="row ">
-                    <div class="col align-self-center">
-                        <p> A web application to predict early heart attack possibility. It's in the development phase.
-
-                            <br>
-                            It asks you few basic questions and then based on the machine learning model, it gives
-                            prediction. The model had fairly good ~90% training accuracy
-                            and ~85% testing accuracy with the balanced and cleaned dataset obtained from Kaggle
-                        </p>
-                    </div>
-
-                    <div class="col align-self-center">
-                        <H5>SKILLS</H5>
-                        <ul>
-                            <li>Flask, a Python web framework</li>
-                            <li>Linear Regression </li>
-                            <li>Label Encoding</li>
-                            <li>Data preprocessing</li>
-                            <li>Feature extraction</li>
-                            <li>Heroku deployment</li>
-                        </ul>
-                    </div>
+        <div class="project-container">
+            <h2>Healthy Heart Prediction System</h2>
+            <p class="project-link"><a href="https://glacial-ocean-35214.herokuapp.com/">Project Link</a></p>
+            <p></p>
+            <div class="row ">
+                <div class="col ">
+                    <p> 
+                        A web application to predict early heart attack possibility. It's in the development phase.
+                        <br>
+                        It asks you few basic questions and then based on the machine learning model, it gives
+                        prediction. The model had fairly good ~90% training accuracy
+                        and ~85% testing accuracy with the balanced and cleaned dataset obtained from Kaggle.
+                    </p>
+                </div>
+                <div class="col">
+                    <H5>SKILLS</H5>
+                    <ul>
+                        <li>Flask, a Python web framework</li>
+                        <li>Linear Regression </li>
+                        <li>Label Encoding</li>
+                        <li>Data preprocessing</li>
+                        <li>Feature extraction</li>
+                        <li>Heroku deployment</li>
+                    </ul>
                 </div>
             </div>
-
         </div>
 
-        <div class="container">
+
+        <div class="project-container">
             <h2>FreshAi</h2>
-            <div class="container ">
-                <div class="row justify-content-center">
-                    <div class="col align-self-center">
-                        <p>
-                            An android application built using Java, which classifies vegetables and fruits as fresh or
-                            not. It helps to make decision while buying vegetables and fruits from market.
-                            This shows your efforts toward health and happiness.
-                        </p>
-                        <p>
-                            It uses machine learning CNN model
-                        </p>
-                    </div>
-
-                    <div class="col align-self-center" style="display: flexbox;  ">
-                        <h5>SKILLS</h5>
-                        <ul>
-                            <li>CNN</li>
-                            <li>PCA </li>
-                            <li>Cross Validation</li>
-                            <li>Pipelining</li>
-                            <li>Tensorflow TFLite</li>
-                            <li>Keras</li>
-                        </ul>
-                    </div>
+            <p class="project-link"><a href="https://github.com/ankurwasnik/plant15_androidapp">Project Link</a></p>
+            <div class="row ">
+                <div class="col ">
+                    <p> 
+                        An android application built using Java, which classifies vegetables and fruits as fresh or
+                        not. It helps to make decision while buying vegetables and fruits from market.
+                        This shows your efforts toward health and happiness.
+                        <br>
+                        It uses machine learning CNN model
+                    </p>
+                </div>
+                <div class="col">
+                    <H5>SKILLS</H5>
+                    <ul>
+                        <li>CNN</li>
+                        <li>PCA </li>
+                        <li>Cross Validation</li>
+                        <li>Pipelining</li>
+                        <li>Tensorflow TFLite</li>
+                        <li>Keras</li>
+                    </ul>
                 </div>
             </div>
-
-        </div>
-
-
-
-    </div>
-
-    <div class="container" id="skills">
-        <div class="container">
-            <h1>Technical Skills 💻</h1>
-        </div>
-        <div class="container">
-            <ul style="list-style: none;">
-                <li>
-                    <span class="badge bg-primary">Java</span>
-                    <span class="badge bg-primary">Python</span>
-                    <span class="badge bg-primary">C++</span>
-                    <span class="badge bg-primary">JavaScript</span>
-                </li>
-                <li>
-                    <span class="badge bg-warning text-dark">MySQL</span>
-                    <span class="badge bg-warning text-dark">MongoDB </span>
-                </li>
-                <li>
-                    <span class="badge bg-danger">HTML</span>
-                    <span class="badge bg-danger">CSS</span>
-                    <span class="badge bg-danger">Bootstrap</span>
-                    <span class="badge bg-danger">ReactJS</span>
-                    <span class="badge bg-danger">NodeJS</span>
-                    <span class="badge bg-danger">ExpressJS</span>
-                </li>
-                <li>
-                    <span class="badge bg-info text-dark">Linux</span>
-                    <span class="badge bg-info text-dark">Git</span>
-                    <span class="badge bg-info text-dark">API testing using Postman, Insomnia</span>
-
-                </li>
-            </ul>
         </div>
     </div>
-    <!-- 
-        contact
-     -->
-    <div class="container" id="contact">
+<!--
+    Technical skills starts here
+-->
+    <div class="container" id="skills">   
+        <h1>Technical Skills 💻</h1>
+        <ul style="list-style: none;">
+            <li>
+                <span class="badge bg-primary">Java</span>
+                <span class="badge bg-primary">Python</span>
+                <span class="badge bg-primary">C++</span>
+                <span class="badge bg-primary">JavaScript</span>
+            </li>
+            <li>
+                <span class="badge bg-warning text-dark">MySQL</span>
+                <span class="badge bg-warning text-dark">MongoDB </span>
+            </li>
+            <li>
+                <span class="badge bg-danger">HTML</span>
+                <span class="badge bg-danger">CSS</span>
+                <span class="badge bg-danger">Bootstrap</span>
+                <span class="badge bg-danger">ReactJS</span>
+                <span class="badge bg-danger">NodeJS</span>
+                <span class="badge bg-danger">ExpressJS</span>
+            </li>
+            <li>
+                <span class="badge bg-info text-dark">Linux</span>
+                <span class="badge bg-info text-dark">Git</span>
+                <span class="badge bg-info text-dark">API testing using Postman, Insomnia</span>
+            </li>
+        </ul>
+    </div>
+<!-- 
+    contact starts here
+-->
+
+    <div class="container" id="contact">    
+        <h1>Contact </h1>
+        <p> Hi there👋 <br> You can contact me on whenever you like !</p>
         <div class="container">
-            <h1>Contact </h1>
-            <code>Drop a message whenever you want !!!</code>
-        </div>
-        <div class="container">
-            <div class="row container  ">
+            <div class="container  ">
                 <ul class="social-links" style="list-style: none; ">
-                    <li> <a href="https://www.linkedin.com/in/ankur-wasnik-b23131171/">LinkedIn</a> <span></span></li>
+                    <li> <a href="https://www.linkedin.com/in/ankur-wasnik-b23131171/">LinkedIn</a></li>
                     <li> <a href="https://github.com/ankurwasnik"> Github </a></li>
                     <li> <a href="https://www.instagram.com/ankurwasnik358/">Instagram </a> </li>
                     <li> <a href="https://www.twitter.com/ankurwasnik358">Twitter </a> </li>
-
                 </ul>
-
             </div>
         </div>
 
@@ -244,7 +225,5 @@
         crossorigin="anonymous"></script>
     <script src="./index.js"></script>
 </body>
-
 </html>
-
 </html>
