@@ -1,6 +1,6 @@
 # [Profile Website](https://www.ankurwasnik.github.io)
 ## Website Description
-**[ankurwasnik.github.io](https://github.com/ankurwasnik/ankurwasnik.github.io)** is my personal website containing interesting stuff like my ongoing work, projects and random stuff about me.
+**[ankurwasnik.github.io](https://www.github.com/ankurwasnik/ankurwasnik.github.io)** is my personal website containing interesting stuff like my ongoing work, projects and random stuff about me.
 
 ## How to make your own portfolio website ?
 1. Clone ankurwasnik/ankurwasnik.github.io with command `git clone https://github.com/ankurwasnik/ankurwasnik.github.io.git`
