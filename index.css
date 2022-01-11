@@ -19,14 +19,13 @@ body{
 }
 
 .profile{
+    margin: 2rem;
+    padding: 1rem;
+    display: flex;
     max-width: 100%;
-    max-height: 600px ;
+    max-height: 500px;
     object-fit: contain;
-    background:#263238;
-    background: linear-gradient(332deg, rgba(242,88,155,0.6306897759103641) 0%, rgba(3,121,203,0.7063200280112045) 100%, rgba(113,93,218,0.9920343137254902) 100%, rgba(0,236,213,0.9752275910364145) 100%, rgba(225,129,129,1) 100%, rgba(148,187,233,1) 100%);
-    border-radius: 4px;
-    
-    
+    border-radius: 50%;
 }
 
 .board {
@@ -54,7 +53,7 @@ h1{
 }
 h1::selection{
     text-decoration: underline;
-    color: #ff4565;
+    color: #dc78f5;
 }
 .current_status{
     padding: 1em;
@@ -62,9 +61,11 @@ h1::selection{
     background: rgb(2,0,36);
     background: linear-gradient(332deg, rgba(2,0,36,1) 0%, rgba(0,220,246,1) 0%, rgba(141,0,255,0.9920343137254902) 100%, rgba(124,2,254,1) 100%, rgba(149,79,254,1) 100%, rgba(0,212,255,1) 100%);
 }
+
 h2{
     color: #f278ad;
 }
+
 a{
     color: #f278ad;
     text-decoration: none;
