@@ -1,4 +1,4 @@
-# [Profile Website](https://www.ankurwasnik.github.io)
+# [Profile Website](https://ankurwasnik.github.io)
 ## Website Description
 **[ankurwasnik.github.io](https://www.github.com/ankurwasnik/ankurwasnik.github.io)** is my personal website containing interesting stuff like my ongoing work, projects and random stuff about me.
 
