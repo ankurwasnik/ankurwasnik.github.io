@@ -1,32 +1,36 @@
-html , body{
+/*
+
+For primary color and seconday color => https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=263238&secondary.color=FF5252
+
+*/
+
+body{
    
-   margin: 0.5em auto;
+   margin: 0 auto;
    justify-content: center;
    color: white;
-
-   background: rgb(0,0,0);
-   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(41,41,41,1) 100%, rgba(3,121,203,0.7063200280112045) 100%, rgba(113,93,218,0.9920343137254902) 100%, rgba(0,236,213,0.9752275910364145) 100%, rgba(225,129,129,1) 100%, rgba(158,158,158,1) 100%);
+   background: #263238;
+   
 }
 
 .navbar {
-    background-color: black;
+    background-color: 263238;
     margin: 0 auto ;
 }
 
 .profile{
     max-width: 100%;
     max-height: 600px ;
-    object-fit: none;
-    background: rgb(242,88,155);
+    object-fit: contain;
+    background:#263238;
     background: linear-gradient(332deg, rgba(242,88,155,0.6306897759103641) 0%, rgba(3,121,203,0.7063200280112045) 100%, rgba(113,93,218,0.9920343137254902) 100%, rgba(0,236,213,0.9752275910364145) 100%, rgba(225,129,129,1) 100%, rgba(148,187,233,1) 100%);
-     
     border-radius: 4px;
+    
     
 }
 
 .board {
     border-bottom: 1px solid whitesmoke;
-    
 }
 
 .social-links{
@@ -70,24 +74,11 @@ a:hover{
 }
 
 
-/*
-li:hover{
-     
-    text-decoration-color: #ff4565;
-    margin: 0 1em ;
-    color:#00ecd5;
-    text-decoration-style: underline;
-    font-weight: medium;
-
-}
-*/
-
-a .hireme{
- color: white;
- text-decoration: none;
+.internship-period{
+    color: #e7b9ff;
 }
 
 footer{
-    margin: 4em auto ;
-
+    display: block;
+    margin:0 auto ;
 }
