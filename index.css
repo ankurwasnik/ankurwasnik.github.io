@@ -91,3 +91,10 @@ footer{
     display: block;
     margin:0 auto ;
 }
+
+.skill-list  li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 16px;
+    font-size: large;
+}
