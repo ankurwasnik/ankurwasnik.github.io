@@ -41,17 +41,12 @@ background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, F
 }
 
 .social-links{
-    list-style: none;
-    text-align: start;
+   
     padding:4px;
     font-size: larger;
+    margin-right: 16px;
 }
-.social-links>li:hover{
-    margin: 0 1em ;
-    color: #954ffe;
-    list-style-type: square;
-     
-}
+
 .container {
     margin-bottom: 2em ;
 }
