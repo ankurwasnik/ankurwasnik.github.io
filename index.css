@@ -3,13 +3,14 @@
 For primary color and seconday color => https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=263238&secondary.color=FF5252
 
 */
-
+html{
+   background: #263238;
+}
 body{
    
    margin: 0 auto;
    justify-content: center;
    color: white;
-   background: #263238;
    
 }
 
@@ -90,6 +91,7 @@ a:hover{
 footer{
     display: block;
     margin:0 auto ;
+    margin-bottom: 16px;
 }
 
 .skill-list  li{
