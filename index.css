@@ -6,8 +6,7 @@ For primary color and seconday color => https://material.io/resources/color/#!/?
 html{
    background: #263238;
 }
-body{
-   
+body{ 
    margin: 0 auto;
    justify-content: center;
    color: white;
@@ -15,12 +14,12 @@ body{
 }
 
 .navbar {
-    background-color: 263238;
+    background-color: #263238;
     margin: 0 auto ;
+    font-size: large;
 }
 
 .profile{
-    margin: 2rem;
     padding: 1rem;
     display: flex;
     max-width: 100%;
@@ -30,10 +29,8 @@ body{
 }
 .profile-container{
     background: #BE93C5;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+    background: -webkit-linear-gradient(to right, #7BC6CC, #BE93C5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7BC6CC, #BE93C5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .board {
