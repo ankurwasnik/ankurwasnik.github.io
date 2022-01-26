@@ -16,7 +16,7 @@ body{
 .navbar {
     background-color: #263238;
     margin: 0 auto ;
-    font-size: large;
+    font-size:x-large;
 }
 
 .profile{
@@ -38,7 +38,6 @@ body{
 }
 
 .social-links{
-   
     padding:4px;
     font-size: larger;
     margin-right: 16px;
