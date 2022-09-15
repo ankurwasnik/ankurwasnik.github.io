@@ -5,6 +5,7 @@ For primary color and seconday color => https://material.io/resources/color/#!/?
 */
 html{
    background: #263238;
+   margin: auto 10%;
 }
 body{ 
    margin: 0 auto;
@@ -17,9 +18,6 @@ body{
     background-color: #263238;
     margin: 0 auto ;
     font-size:x-large;
-}
-.nav-link{
-    margin: 1rem;
 }
 .nav-link:hover{
     text-decoration : underline;
