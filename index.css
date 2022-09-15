@@ -18,6 +18,9 @@ body{
     margin: 0 auto ;
     font-size:x-large;
 }
+.nav-link:hover{
+    text-decoration: underline;
+}
 
 .profile{
     padding: 1rem;
@@ -26,6 +29,7 @@ body{
     max-height: 500px;
     object-fit: contain;
     border-radius: 50%;
+    
 }
 .profile-container{
     background: #BE93C5;  /* fallback for old browsers */
